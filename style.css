@@ -46,3 +46,21 @@ gap: 1.5vmin;
     border-radius: 1rem;
 
 }
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+}
+#msg{
+
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.message{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
