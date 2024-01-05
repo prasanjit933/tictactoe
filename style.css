@@ -61,6 +61,8 @@ gap: 1.5vmin;
 .message{
     height: 30vmin;
 }
+
 .hide{
-    display: none;
+   display: none; 
 }
+
