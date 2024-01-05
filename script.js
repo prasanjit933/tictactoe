@@ -35,11 +35,6 @@ boxes.forEach((box) => {
     });
 });
 
-const showWinner (winner) => {
-    msg.innerText = `Congratulations, Winner is $(winner)`;
-    msgContainer.classList.remove("hide");
-}
-
 checkWinner = () => {
     for( let pattern of winPatterns) {
         
@@ -50,7 +45,6 @@ checkWinner = () => {
            if (pos1val != "" && pos2val !="" && pos3val!=""){
             if (pos1val==pos2val && pos2val==pos3val){
                 console.log("winner", pos1val );
-                showWinner(pos1val);
             }
            }
     }
